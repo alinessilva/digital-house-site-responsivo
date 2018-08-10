@@ -1,0 +1,94 @@
+/* TO DO
+
+PRIMEIRO CSS = WIDTH = 450PX
+@MEDIA MIN WIDTH = 900PX
+@MEDIA MIN WIDTH = 1200PX
+
+*/
+
+/* Reset */
+
+* {
+    box-sizing: border-box;
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Geral */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../images/bg-body.png");
+}
+
+nav, footer {
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+nav ul {
+    background-color: #505763;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+section a {
+    background-color: #505763;
+    padding: 0.5em;
+}
+
+article {
+    margin-bottom: 0.5em;
+}
+
+li {
+    border-bottom: 1px solid white;
+}
+
+img {
+    width: 100%;
+}
+
+/* Mobile First */
+
+.banner {
+    display: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 10px;
+}
+
+header img {
+    width: 20%; /* 240px */
+    display: block;
+    margin: 20px auto;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+footer li {
+    background-color: #b62322;
+}
+
+footer li:first-child {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+
+
+
